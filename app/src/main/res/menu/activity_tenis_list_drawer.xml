@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:checked="true"
+            android:icon="@drawable/ic_human_male_white_24dp"
+            android:title="@string/nav_item_all_brands" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_account_child_white_24dp"
+            android:title="@string/nav_item_contact" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_account_child_white_24dp"
+            android:title="@string/nav_item_about" />
+        <item
+            android:id="@+id/nav_polit"
+            android:icon="@drawable/ic_account_child_white_24dp"
+            android:title="@string/nav_item_polit" />
+    </group>
+
+    <item android:title="@string/nav_group_config">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_cellphone_android_white_24dp"
+                android:title="@string/nav_group_config" />
+            <item
+                android:id="@+id/nav_pedidos"
+                android:icon="@drawable/ic_cellphone_android_white_24dp"
+                android:title="@string/nav_item_pedidos" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_wrench_white_24dp"
+                android:title="@string/nav_item_sair" />
+        </menu>
+    </item>
+</menu>
