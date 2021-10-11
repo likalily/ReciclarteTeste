@@ -4,6 +4,8 @@
     <color name="colorPrimaryDark">#00600F</color>
     <color name="colorPrimaryLight">#81E281</color>
     <color name="colorAccent">#1976D2</color>
+    <color name="colorBase">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
 
     <color name="colorAccentDark">#00600F</color>
 

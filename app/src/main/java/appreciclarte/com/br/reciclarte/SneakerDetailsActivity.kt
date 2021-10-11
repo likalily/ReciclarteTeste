@@ -1,4 +1,4 @@
-package thiengo.com.br.tnismobshop
+package appreciclarte.com.br.reciclarte
 
 import android.content.Intent
 import android.databinding.DataBindingUtil
@@ -13,9 +13,9 @@ import android.widget.AdapterView
 import android.widget.TextView
 import kotlinx.android.synthetic.main.activity_sneaker_details.*
 import kotlinx.android.synthetic.main.content_sneaker_details.*
-import thiengo.com.br.tnismobshop.databinding.ActivitySneakerDetailsBinding
-import thiengo.com.br.tnismobshop.databinding.DialogPaymentBinding
-import thiengo.com.br.tnismobshop.domain.Sneaker
+import appreciclarte.com.br.reciclarte.databinding.ActivitySneakerDetailsBinding
+import appreciclarte.com.br.reciclarte.databinding.DialogPaymentBinding
+import appreciclarte.com.br.reciclarte.domain.Sneaker
 
 class SneakerDetailsActivity : AppCompatActivity(),
         View.OnClickListener,

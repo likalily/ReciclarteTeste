@@ -1,4 +1,4 @@
-package thiengo.com.br.tnismobshop.util
+package appreciclarte.com.br.reciclarte.util
 
 import android.content.Context
 import android.content.res.Resources

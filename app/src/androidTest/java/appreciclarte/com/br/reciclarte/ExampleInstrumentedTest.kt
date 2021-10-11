@@ -1,4 +1,4 @@
-package thiengo.com.br.tnismobshop
+package appreciclarte.com.br.reciclarte
 
 /**
  * Instrumented test, which will execute on an Android device.

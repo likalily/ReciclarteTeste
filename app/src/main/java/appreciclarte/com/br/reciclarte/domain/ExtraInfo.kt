@@ -1,9 +1,9 @@
-package thiengo.com.br.tnismobshop.domain
+package appreciclarte.com.br.reciclarte.domain
 
 import android.content.Context
 import android.os.Parcel
 import android.os.Parcelable
-import thiengo.com.br.tnismobshop.R
+import appreciclarte.com.br.reciclarte.R
 
 class ExtraInfo(
     val stock: Int,

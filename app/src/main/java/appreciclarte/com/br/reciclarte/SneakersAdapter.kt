@@ -1,4 +1,4 @@
-package thiengo.com.br.tnismobshop
+package appreciclarte.com.br.reciclarte
 
 import android.content.Context
 import android.content.Intent
@@ -6,8 +6,8 @@ import android.support.v7.widget.RecyclerView
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import thiengo.com.br.tnismobshop.databinding.SneakerBinding
-import thiengo.com.br.tnismobshop.domain.Sneaker
+import appreciclarte.com.br.reciclarte.databinding.SneakerBinding
+import appreciclarte.com.br.reciclarte.domain.Sneaker
 
 class SneakersAdapter(
         private val context: Context,

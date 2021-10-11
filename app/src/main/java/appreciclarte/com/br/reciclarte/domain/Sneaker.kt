@@ -1,4 +1,4 @@
-package thiengo.com.br.tnismobshop.domain
+package appreciclarte.com.br.reciclarte.domain
 
 import android.os.Parcel
 import android.os.Parcelable

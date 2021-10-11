@@ -6,7 +6,7 @@
     <!--
         Cor de background da View.
     -->
-    <solid android:color="@color/colorAccent" />
+    <solid android:color="@color/colorPrimaryDark" />
 
     <!--
         Curvatura das pontas da View retangular.

@@ -1,4 +1,4 @@
-package thiengo.com.br.tnismobshop
+package appreciclarte.com.br.reciclarte
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,8 +6,8 @@ import android.support.v7.app.AppCompatActivity
 import android.view.View
 import kotlinx.android.synthetic.main.activity_thank_you.*
 import kotlinx.android.synthetic.main.content_thank_you.*
-import thiengo.com.br.tnismobshop.databinding.ContentThankYouBinding
-import thiengo.com.br.tnismobshop.domain.Sneaker
+import appreciclarte.com.br.reciclarte.databinding.ContentThankYouBinding
+import appreciclarte.com.br.reciclarte.domain.Sneaker
 
 
 class ThankYouActivity : AppCompatActivity() {

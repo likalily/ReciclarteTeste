@@ -5,7 +5,7 @@
     <!--
         Cor de background da View.
     -->
-    <solid android:color="@android:color/white" />
+    <solid android:color="@color/colorPrimaryLight" />
 
     <!--
         Espaçamentos interno aplicados a View.

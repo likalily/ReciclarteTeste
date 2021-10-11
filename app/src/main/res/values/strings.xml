@@ -38,20 +38,19 @@
     <string name="label_description">Descrição:</string>
 
     <string name="value_stok_invetory_amount">Quantidade</string>
-    <string name="value_stok_invetory_end">em estoque</string>
+    <string name="value_stok_invetory_end">para venda</string>
     <string name="value_stok_invetory">Quantidade (4 estoque)</string>
-    <string name="value_recommended">Running</string>
+    <string name="value_recommended">Descarte</string>
     <string name="value_type">Performance</string>
-    <string name="value_composition">68% Poliamida | 32% Sintético</string>
+    <string name="value_composition">68% Celulose | 32% Pigmento</string>
     <string name="value_desc">
-        O mais novo Fresh Foam Cruz conta com a nossa
-        premiada tecnologia Fresh Foam para uma corrida
-        estável e de alto amortecimento. Seu cabedal
-        sofisticado combina a junção central do tênis
-        com o mesh respirável para oferecer suporte com
-        uma camada extra de conforto. O Fresh Foam Cruz
-        proporciona uma sensação de frescor ao seu pé,
-        treino após treino.
+        Empresa coleta desde papéis, como por exemplo
+        embalagens sem plástico, jornais e papelão.
+        Para isso o produto deve estar em bom estado,
+        não podendo estar sujo ou úmido. Retirada a
+        depender do pesso do material, do contrário
+        poderá ser entregue na empresa durante o
+        horário comercial de segunda á sexta-feira.
     </string>
 
     <string name="excellent_buy">Excelente compra!</string>
@@ -71,19 +70,19 @@
     <string name="dialog_label_card_expire_bar">/</string>
     <string name="dialog_label_card_expire_year">Ano:</string>
     <string name="dialog_label_card_total_parcels">
-        <![CDATA[Número de parcelas. Se > 10x tem adição de juros:]]>
+        <![CDATA[Número de parcelas. pagamento a combinar:]]>
     </string>
 
     <string name="label_bt_finish_buy">Finalizar compra</string>
 
     <string name="dialog_label_total">Total:</string>
     <string name="dialog_label_parcels_without_taxes">
-        em até 10x sem juros
+        pagamento a combinar
     </string>
 
-    <string name="desc_sneaker_brand">Marca do tênis</string>
-    <string name="desc_sneaker_bought">Tênis comprado</string>
-    <string name="desc_sneaker_bought_brand">Marca do tênis comprado</string>
+    <string name="desc_sneaker_brand">Logo da loja</string>
+    <string name="desc_sneaker_bought">Produto vendido</string>
+    <string name="desc_sneaker_bought_brand">logo da loja</string>
     <string name="label_support_shop">Tel. suporte: 0800 723 6659</string>
 
     <string name="item_add_to_cart">Adicionar ao carrinho</string>
@@ -99,7 +98,7 @@
     <string name="until">até</string>
     <string name="or_in">ou em</string>
 
-    <string name="sneaker">Tênis</string>
+    <string name="sneaker">Empresa</string>
 
     <string name="nav_item_all_brands">Todas as empresas</string>
     <string name="nav_item_contact">Contato Reciclarte</string>

@@ -1,4 +1,4 @@
-package thiengo.com.br.tnismobshop
+package appreciclarte.com.br.reciclarte
 
 /**
  * Example local unit test, which will execute on the development machine (host).

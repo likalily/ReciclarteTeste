@@ -1,4 +1,4 @@
-package thiengo.com.br.tnismobshop
+package appreciclarte.com.br.reciclarte
 
 import android.os.Bundle
 import android.support.design.widget.NavigationView
@@ -10,8 +10,8 @@ import android.view.Menu
 import android.view.MenuItem
 import kotlinx.android.synthetic.main.activity_sneakers.*
 import kotlinx.android.synthetic.main.app_bar_sneakers.*
-import thiengo.com.br.tnismobshop.data.Database
-import thiengo.com.br.tnismobshop.databinding.NavHeaderSneakerBinding
+import appreciclarte.com.br.reciclarte.data.Database
+import appreciclarte.com.br.reciclarte.databinding.NavHeaderSneakerBinding
 
 class SneakersActivity :
         AppCompatActivity(),

@@ -4,7 +4,7 @@ Projeto Kotlin Android da segunda parte do artigo [Data Binding Para Vinculo de 
 
 Artigo que discute em detalhes a Data Binding API, uma API que nos permite diminuir o código boilerplate de vinculo de dados e métodos à interface do usuário.
 
-<img src="https://www.thiengo.com.br/img/post/normal/25kkh1lhm248v629e8lthm15v1c4bfabb8a44f44e4f469d50b207b71a1.gif" width="240" alt="Animação app de tênis com a Data Binding API">
+<img src="https://www.appreciclarte.com.br/img/post/normal/25kkh1lhm248v629e8lthm15v1c4bfabb8a44f44e4f469d50b207b71a1.gif" width="240" alt="Animação app de tênis com a Data Binding API">
 
 O conteúdo do artigo também está disponível em [vídeos](https://www.thiengo.com.br/data-binding-para-vinculo-de-dados-na-ui-android#title-43) e em [slides](https://www.thiengo.com.br/data-binding-para-vinculo-de-dados-na-ui-android#title-42).
 

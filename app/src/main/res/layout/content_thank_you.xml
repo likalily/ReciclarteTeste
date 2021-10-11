@@ -5,13 +5,13 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-        <import type="thiengo.com.br.tnismobshop.util.Util" />
+        <import type="appreciclarte.com.br.reciclarte.util.Util" />
 
         <import type="java.util.Locale" />
 
         <variable
             name="sneaker"
-            type="thiengo.com.br.tnismobshop.domain.Sneaker" />
+            type="appreciclarte.com.br.reciclarte.domain.Sneaker" />
 
         <variable
             name="amountSneakers"
@@ -22,10 +22,10 @@
         android:id="@+id/nsv_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/colorPrimary"
+        android:background="@color/colorBase"
         android:fillViewport="true"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        tools:context="thiengo.com.br.tnismobshop.ThankYouActivity">
+        tools:context="appreciclarte.com.br.reciclarte.ThankYouActivity">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -39,7 +39,7 @@
                 android:layout_alignParentTop="true"
                 android:layout_centerHorizontal="true"
                 android:text="@string/excellent_buy"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/black"
                 android:textSize="18sp"
                 android:textStyle="bold" />
 
@@ -52,7 +52,7 @@
                 android:layout_below="@+id/tv_excellent_buy"
                 android:layout_marginTop="18dp"
                 android:text='@{ String.format("%s %s", @string/track_code_label, Util.codeBuyGenerator()) }'
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/black" />
 
             <TextView
                 android:id="@+id/tv_support_tel"
@@ -63,7 +63,7 @@
                 android:layout_below="@+id/tv_tracking_code"
                 android:layout_marginTop="4dp"
                 android:text="@string/label_support_shop"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/black" />
 
             <View
                 android:id="@+id/vv_horizontal_line_01"
@@ -74,7 +74,7 @@
                 android:layout_below="@+id/tv_support_tel"
                 android:layout_marginBottom="14dp"
                 android:layout_marginTop="14dp"
-                android:background="@android:color/white" />
+                android:background="@android:color/black" />
 
             <ImageView
                 android:id="@+id/iv_sneaker"
@@ -99,7 +99,7 @@
                 android:layout_toEndOf="@+id/iv_sneaker"
                 android:layout_toRightOf="@+id/iv_sneaker"
                 android:text="@{ sneaker.model }"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/black" />
 
             <ImageView
                 android:id="@+id/iv_brand"
@@ -123,7 +123,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_below="@+id/vv_horizontal_line_01"
                 android:text='@{ String.format(Locale.FRANCE, "R$ %.2f", sneaker.price * amountSneakers) }'
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/black"
                 android:textStyle="italic" />
 
             <View
@@ -135,7 +135,7 @@
                 android:layout_below="@+id/iv_sneaker"
                 android:layout_marginBottom="14dp"
                 android:layout_marginTop="14dp"
-                android:background="@android:color/white" />
+                android:background="@android:color/black" />
 
             <Button
                 android:id="@+id/bt_keep_buying"
@@ -148,7 +148,7 @@
                 android:onClick="backToTenisShop"
                 android:text="@string/keep_buying"
                 android:textAllCaps="false"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/black" />
         </RelativeLayout>
     </android.support.v4.widget.NestedScrollView>
 </layout>

@@ -5,13 +5,13 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-        <import type="thiengo.com.br.tnismobshop.util.Util" />
+        <import type="appreciclarte.com.br.reciclarte.util.Util" />
 
         <import type="android.view.View" />
 
         <variable
             name="sneaker"
-            type="thiengo.com.br.tnismobshop.domain.Sneaker" />
+            type="appreciclarte.com.br.reciclarte.domain.Sneaker" />
     </data>
 
     <RelativeLayout
@@ -23,7 +23,7 @@
         android:layout_marginTop="7dp"
         android:background="@drawable/item_border_and_background"
         android:padding="6dp"
-        tools:context="thiengo.com.br.tnismobshop.SneakersActivity">
+        tools:context="appreciclarte.com.br.reciclarte.SneakersActivity">
 
         <ImageView
             android:id="@+id/iv_sneaker"
@@ -91,7 +91,7 @@
             android:ellipsize="end"
             android:maxLines="1"
             android:text="@{ sneaker.model }"
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             android:textSize="18sp"
             android:textStyle="bold" />
 

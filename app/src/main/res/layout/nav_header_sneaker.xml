@@ -4,9 +4,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <data>
-        <import type="thiengo.com.br.tnismobshop.util.Util" />
+        <import type="appreciclarte.com.br.reciclarte.util.Util" />
 
-        <import type="thiengo.com.br.tnismobshop.domain.User" />
+        <import type="appreciclarte.com.br.reciclarte.domain.User" />
 
         <variable
             name="user"

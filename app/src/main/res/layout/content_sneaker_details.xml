@@ -3,17 +3,17 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="thiengo.com.br.tnismobshop.SneakerDetailsActivity"
+    tools:context="appreciclarte.com.br.reciclarte.SneakerDetailsActivity"
     tools:showIn="@layout/activity_sneaker_details">
 
     <data>
-        <import type="thiengo.com.br.tnismobshop.util.Util" />
+        <import type="appreciclarte.com.br.reciclarte.util.Util" />
 
         <import type="android.view.View" />
 
         <variable
             name="sneaker"
-            type="thiengo.com.br.tnismobshop.domain.Sneaker" />
+            type="appreciclarte.com.br.reciclarte.domain.Sneaker" />
     </data>
 
     <android.support.v4.widget.NestedScrollView
@@ -37,7 +37,7 @@
                 android:contentDescription="@{ sneaker.brand.name }"
                 android:scaleType="fitCenter"
                 android:src="@{ Util.getImageSource( context, sneaker.brand.imageResource ) }"
-                android:tint="@color/colorPrimaryLight" />
+                android:tint="@color/colorPrimaryDark" />
 
             <View
                 android:id="@+id/vv_horizontal_line_01"
@@ -368,7 +368,7 @@
                 android:layout_toEndOf="@+id/tv_label_desc"
                 android:layout_toRightOf="@+id/tv_label_desc"
                 android:text="@{ sneaker.extraInfo.fullDescription }"
-                android:textColor="@android:color/white" />
+                android:textColor="@android:color/black" />
 
             <View
                 android:id="@+id/vv_horizontal_line_05"
