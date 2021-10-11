@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">RECICLARTE</string>
+    <string name="app_name">Reciclarte</string>
 
     <string name="title_activity_thank_you">Voltar para Reciclarte</string>
 
@@ -41,8 +41,8 @@
     <string name="value_stok_invetory_end">para venda</string>
     <string name="value_stok_invetory">Quantidade (4 estoque)</string>
     <string name="value_recommended">Descarte</string>
-    <string name="value_type">Performance</string>
-    <string name="value_composition">68% Celulose | 32% Pigmento</string>
+    <string name="value_type">Reciclagem</string>
+    <string name="value_composition">composição | composição</string>
     <string name="value_desc">
         Empresa coleta desde papéis, como por exemplo
         embalagens sem plástico, jornais e papelão.

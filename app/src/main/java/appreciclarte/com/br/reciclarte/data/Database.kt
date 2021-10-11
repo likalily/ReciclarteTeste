@@ -15,14 +15,14 @@ class Database {
         fun getSneakers( context: Context ) =
             listOf(
                 Sneaker(
-                    R.drawable.shoes_01_a,
-                    intArrayOf(R.drawable.shoes_01_b, R.drawable.shoes_01_c, R.drawable.shoes_01_d),
-                    "Fresh Foam Cruz",
-                    Brand(R.drawable.ic_new_balance, "New Balance"),
+                    R.drawable.recy4,
+                    intArrayOf(R.drawable.recy4, R.drawable.recy4, R.drawable.recy4),
+                    "Reciclagem Ferraz",
+                    Brand(R.drawable.ic_new_balance, "Cód: 1"),
                     true,
                     true,
                     Rating(42, 5),
-                    499.90,
+                    000.00,
                     ExtraInfo(
                         4,
                         context.getString(R.string.value_recommended),
@@ -32,14 +32,14 @@ class Database {
                     )
                 ),
                 Sneaker(
-                    R.drawable.shoes_02_a,
-                    intArrayOf(R.drawable.shoes_02_b, R.drawable.shoes_02_c, R.drawable.shoes_02_d),
-                    "Epic React Flyknit",
-                    Brand(R.drawable.ic_nike, "Nike"),
+                    R.drawable.recy5,
+                    intArrayOf(R.drawable.recy5, R.drawable.recy5, R.drawable.recy5),
+                    "BioRecicle",
+                    Brand(R.drawable.ic_nike, "Cód: 2"),
                     true,
                     false,
                     Rating(91, 5),
-                    699.90,
+                    000.00,
                     ExtraInfo(
                         4,
                         context.getString(R.string.value_recommended),
@@ -49,14 +49,14 @@ class Database {
                     )
                 ),
                 Sneaker(
-                    R.drawable.shoes_03_a,
-                    intArrayOf(R.drawable.shoes_03_b, R.drawable.shoes_03_c, R.drawable.shoes_03_d),
-                    "Supernova",
-                    Brand(R.drawable.ic_adidas, "Adidas"),
+                    R.drawable.recy7,
+                    intArrayOf(R.drawable.recy7, R.drawable.recy7, R.drawable.recy7),
+                    "RecyEletron",
+                    Brand(R.drawable.ic_adidas, "Cód: 3"),
                     true,
                     false,
                     Rating(29, 3),
-                    599.99,
+                    000.00,
                     ExtraInfo(
                         4,
                         context.getString(R.string.value_recommended),
@@ -66,14 +66,14 @@ class Database {
                     )
                 ),
                 Sneaker(
-                    R.drawable.shoes_04_a,
-                    intArrayOf(R.drawable.shoes_04_b, R.drawable.shoes_04_c, R.drawable.shoes_04_d),
-                    "GEL-Kenun",
-                    Brand(R.drawable.ic_asics, "Asics"),
+                    R.drawable.recy8,
+                    intArrayOf(R.drawable.recy8, R.drawable.recy8, R.drawable.recy8),
+                    "RecyLamp",
+                    Brand(R.drawable.ic_asics, "Cód: 4"),
                     true,
                     false,
                     Rating(84, 4),
-                    699.90,
+                    000.00,
                     ExtraInfo(
                         4,
                         context.getString(R.string.value_recommended),
@@ -83,14 +83,14 @@ class Database {
                     )
                 ),
                 Sneaker(
-                    R.drawable.shoes_05_a,
-                    intArrayOf(R.drawable.shoes_05_b, R.drawable.shoes_05_c, R.drawable.shoes_05_d),
-                    "Charged Bandit 3",
-                    Brand(R.drawable.ic_under_armour, "UnderArmour"),
+                    R.drawable.recy2,
+                    intArrayOf(R.drawable.recy2, R.drawable.recy2, R.drawable.recy2),
+                    "EnterVidro",
+                    Brand(R.drawable.ic_under_armour, "Cód: 5"),
                     false,
                     true,
                     Rating(19, 5),
-                    349.90,
+                    000.00,
                     ExtraInfo(
                         4,
                         context.getString(R.string.value_recommended),
@@ -100,14 +100,14 @@ class Database {
                     )
                 ),
                 Sneaker(
-                    R.drawable.shoes_06_a,
-                    intArrayOf(R.drawable.shoes_06_b, R.drawable.shoes_06_c, R.drawable.shoes_06_d),
-                    "Wave Sky",
-                    Brand(R.drawable.ic_mizuno, "Mizuno"),
+                    R.drawable.recy6,
+                    intArrayOf(R.drawable.recy6, R.drawable.recy6, R.drawable.recy6),
+                    "RecycleOrganic",
+                    Brand(R.drawable.ic_mizuno, "Cód: 6"),
                     true,
                     true,
                     Rating(42, 5),
-                    749.99,
+                    000.00,
                     ExtraInfo(
                         4,
                         context.getString(R.string.value_recommended),
@@ -126,6 +126,6 @@ class Database {
             = User(
                 "Ram/Eli/Nat/Fer/",
                 "reciclarte@gmail.com",
-                R.drawable.lamborghini_urus )
+                R.drawable.user)
     }
 }
