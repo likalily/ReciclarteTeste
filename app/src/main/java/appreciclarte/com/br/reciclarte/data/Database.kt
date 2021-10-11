@@ -126,6 +126,6 @@ class Database {
             = User(
                 "Ram/Eli/Nat/Fer/",
                 "reciclarte@gmail.com",
-                R.drawable.user)
+                R.mipmap.logo)
     }
 }
