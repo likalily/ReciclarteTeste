@@ -21,8 +21,8 @@
         Terceira imagem extra da galeria
     </string>
 
-    <string name="desc_male_icon">Ícone do sexo masculino</string>
-    <string name="desc_female_icon">Ícone do sexo feminino</string>
+    <string name="desc_male_icon">Ícone de pesquisa</string>
+    <string name="desc_female_icon">Ícone de compartilhamento</string>
 
     <string name="label_free">grátis</string>
     <string name="label_put_on_shop_cart">Colocar no</string>
@@ -105,6 +105,7 @@
     <string name="nav_item_about">Sobre</string>
     <string name="nav_item_polit">Políticas de privacidade</string>
     <string name="nav_group_config">Configurações</string>
+    <string name="nav_group_plus">Mais opções</string>
     <string name="nav_item_pedidos">Meus pedidos</string>
     <string name="nav_item_sair">Sair</string>
 </resources>

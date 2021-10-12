@@ -73,7 +73,7 @@ class SneakersActivity :
      * "carrinho de compras"
      * */
     override fun onCreateOptionsMenu( menu: Menu ): Boolean {
-        menuInflater.inflate( R.menu.tenis_list, menu )
+        menuInflater.inflate( R.menu.enterprise_list, menu )
         return true
     }
 

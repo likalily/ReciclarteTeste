@@ -148,7 +148,7 @@
                 android:onClick="backToTenisShop"
                 android:text="@string/keep_buying"
                 android:textAllCaps="false"
-                android:textColor="@android:color/black" />
+                android:textColor="@android:color/white" />
         </RelativeLayout>
     </android.support.v4.widget.NestedScrollView>
 </layout>

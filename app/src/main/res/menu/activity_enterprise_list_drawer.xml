@@ -7,35 +7,35 @@
         <item
             android:id="@+id/nav_camera"
             android:checked="true"
-            android:icon="@drawable/ic_human_male_white_24dp"
+            android:icon="@drawable/ic_information_black_18dp"
             android:title="@string/nav_item_all_brands" />
         <item
             android:id="@+id/nav_contact"
-            android:icon="@drawable/ic_account_child_white_24dp"
+            android:icon="@drawable/ic_email"
             android:title="@string/nav_item_contact" />
         <item
             android:id="@+id/nav_about"
-            android:icon="@drawable/ic_account_child_white_24dp"
+            android:icon="@drawable/ic_domain"
             android:title="@string/nav_item_about" />
         <item
             android:id="@+id/nav_polit"
-            android:icon="@drawable/ic_account_child_white_24dp"
+            android:icon="@drawable/ic_shield_lock"
             android:title="@string/nav_item_polit" />
     </group>
 
-    <item android:title="@string/nav_group_config">
+    <item android:title="@string/nav_group_plus">
         <menu>
             <item
                 android:id="@+id/nav_share"
-                android:icon="@drawable/ic_cellphone_android_white_24dp"
+                android:icon="@drawable/ic_settings"
                 android:title="@string/nav_group_config" />
             <item
                 android:id="@+id/nav_pedidos"
-                android:icon="@drawable/ic_cellphone_android_white_24dp"
+                android:icon="@drawable/ic_package_variant"
                 android:title="@string/nav_item_pedidos" />
             <item
                 android:id="@+id/nav_send"
-                android:icon="@drawable/ic_wrench_white_24dp"
+                android:icon="@drawable/ic_exit_run"
                 android:title="@string/nav_item_sair" />
         </menu>
     </item>

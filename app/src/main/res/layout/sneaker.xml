@@ -77,7 +77,7 @@
             android:layout_marginStart="6dp"
             android:layout_toEndOf="@+id/iv_sneaker_gallery_01"
             android:layout_toRightOf="@+id/iv_sneaker_gallery_01"
-            android:background="@android:color/white" />
+            android:background="@android:color/black" />
 
         <TextView
             android:id="@+id/tv_model"
@@ -106,7 +106,7 @@
             android:contentDescription="@{ sneaker.brand.name }"
             android:scaleType="fitCenter"
             android:src="@{ Util.getImageSource( context, sneaker.brand.imageResource ) }"
-            android:tint="@color/colorPrimaryLight" />
+            android:tint="@color/colorAccentDark" />
 
         <ImageView
             android:id="@+id/iv_genre_male"
@@ -180,7 +180,7 @@
             android:layout_toEndOf="@id/iv_rating_star_05"
             android:layout_toRightOf="@id/iv_rating_star_05"
             android:text='@{ String.format("%s", sneaker.rating.amount) }'
-            android:textColor="@android:color/white"
+            android:textColor="@android:color/black"
             android:textSize="13sp" />
 
         <TextView
