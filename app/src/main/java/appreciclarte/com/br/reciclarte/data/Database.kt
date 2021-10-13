@@ -124,7 +124,7 @@ class Database {
          * */
         fun getUser() : User
             = User(
-                "Ram/Eli/Nat/Fer/",
+                "Ram/Eli/Nat/Fer/Bru",
                 "reciclarte@gmail.com",
                 R.mipmap.logo)
     }
